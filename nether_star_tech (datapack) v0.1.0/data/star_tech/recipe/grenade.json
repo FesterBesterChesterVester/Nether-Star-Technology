@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i",
+    " n",
+    " i"
+  ],
+  "key": {
+    "i": [
+      "minecraft:iron_ingot"
+    ],
+    "n": [
+      "minecraft:nether_star"
+    ]
+  },
+  "result": {
+    "id": "minecraft:snowball",
+    "components": {
+      "minecraft:item_name": "Grenade",
+      "minecraft:custom_data": {
+        "star_tech_grenade": true
+      },
+      "minecraft:item_model": "star_tech:grenade"
+    },
+    "count": 16
+  }
+}

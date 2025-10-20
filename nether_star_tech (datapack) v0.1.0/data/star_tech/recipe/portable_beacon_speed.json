@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b  ",
+    "nni",
+    "nn "
+  ],
+  "key": {
+    "b": [
+      "minecraft:beacon"
+    ],
+    "n": [
+      "minecraft:netherite_ingot"
+    ],
+    "i": "#minecraft:foot_armor"
+  },
+  "result": {
+    "id": "minecraft:prismarine_crystals",
+    "components": {
+      "minecraft:item_name": "Portable Beacon",
+      "minecraft:item_model": "star_tech:portable_beacon_speed",
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0,
+        "disable_cooldown_scale": 0.4
+      },
+      "minecraft:lore": [
+        {
+          "text": "Speed",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "portable_beacon": "speed"
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g",
+    " n",
+    " i"
+  ],
+  "key": {
+    "i": [
+      "minecraft:netherite_ingot"
+    ],
+    "n": [
+      "minecraft:nether_star"
+    ],
+    "g": [
+      "minecraft:red_stained_glass"
+    ]
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_name": "Lightsaber",
+      "minecraft:item_model": "star_tech:red_lightsaber",
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0,
+        "disable_cooldown_scale": 0.4
+      }
+    },
+    "count": 1
+  }
+}
